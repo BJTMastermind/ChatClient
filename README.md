@@ -16,3 +16,4 @@ This chatting application is made to work with Cowboy8625's [rusty-chat](https:/
 - [ ] Add Settings Menu
 - [ ] Add Light Theme option in Settings Menu
 - [ ] Add Profile Menu + Profile Picture Support
+- [ ] Add a Way To Save Username and Settings

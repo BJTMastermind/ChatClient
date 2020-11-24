@@ -16,7 +16,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 
 public class MainController implements Runnable {
-	static String LOCALIP = "45.79.53.62";
+	static String LOCALIP = "localhost";
 	static int LOCALPORT = 6000;
 	static int MSG_SIZE = 100;
 	static String name;

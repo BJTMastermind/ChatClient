@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="mainPanel" prefHeight="650.0" prefWidth="700.0" style="-fx-background-color: #3a3a3a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.bjtmastermind.chat.MainController">
+  <children>
+    <AnchorPane fx:id="mainScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="700.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TextArea fx:id="friendsArea" editable="false" layoutX="17.0" layoutY="19.0" prefHeight="616.0" prefWidth="214.0" style="-fx-background-color: #4c4c4c;" stylesheets="@css/textAreaColor.css" />
+            <TextArea fx:id="chatArea" editable="false" layoutX="240.0" layoutY="19.0" prefHeight="567.0" prefWidth="444.0" style="-fx-background-color: #4c4c4c; -fx-text-fill: #ffffff;" stylesheets="@css/textAreaColor.css" wrapText="true">
+               <font>
+                  <Font name="FreeSans Bold" size="20.0" />
+               </font>
+            </TextArea>
+            <TextField fx:id="textArea" layoutX="240.0" layoutY="600.0" onAction="#sendMessage" prefHeight="36.0" prefWidth="444.0" promptText="Message Users" style="-fx-background-color: #4c4c4c; -fx-text-fill: #ffffff;" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

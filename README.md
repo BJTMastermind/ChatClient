@@ -2,6 +2,9 @@
 
 is a chatting application that lets talk with you friends
 
+## ReChat
+This project has been discontinued if you like have a GUI chat interface for Cowboy8625's [rechat-server](https://github.com/cowboy8625/rechat-server) see [rechat-gui-client](https://github.com/cowboy8625/rechat-gui-client)
+
 ## Want to download
 * Go to the releases page and download the latest ChatClient.jar file
 

@@ -14,9 +14,9 @@ This project has been discontinued if you like have a GUI chat interface for Cow
 ## About this project
 This chatting application is made to work with Cowboy8625's [rechat-server](https://github.com/cowboy8625/rechat-server) chat server program.
 
-# TODO
-- [ ] Add Notification sound
-- [ ] Add Settings Menu
-- [ ] Add Light Theme option in Settings Menu
-- [ ] Add Profile Menu + Profile Picture Support
-- [ ] Add a Way To Save Username and Settings.
+## TODO
+- [ ] ~~Add Notification sound~~
+- [ ] ~~Add Settings Menu~~
+- [ ] ~~Add Light Theme option in Settings Menu~~
+- [ ] ~~Add Profile Menu + Profile Picture Support~~
+- [ ] ~~Add a Way To Save Username and Settings.~~
